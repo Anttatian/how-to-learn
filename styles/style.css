@@ -1,9 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .page {
   min-width: 1100px;
   max-width: 1600px;
   margin: 0 auto;
   font-family: 'Helvetica Neue', Arial, sans-serif;
-  color: #000000;
+  font-style: normal;
+  color: #000;
 }
 
 .header {
@@ -12,21 +18,20 @@
   max-height: 756px;
   background-color: #f2f2f2;
   position: relative;
-  margin: 0 auto;
-  padding: 0;
   display: flex;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
 .logo {
   height:32px;
   width: 228px;
-  position:absolute;
+  position: absolute;
 }
 
 .logo__place_header {
-  position:absolute;
-  top:30px;
-  margin-left:64px;
+  position: absolute;
+  top: 30px;
+  margin-left: 64px;
   z-index: 1;
 }
 
@@ -41,12 +46,12 @@
 
 .header__subtitle {
   position: absolute;
-  max-height: 25px;
+  line-height: 25px;
   font-size: 18px;
   font-style: normal;
   width: 388px;
-  bottom: 30px;
-  margin-left: 64px;
+  left: 64px;
+  bottom: 34px;
 }
 
 .header__link {
@@ -56,7 +61,7 @@
 }
 
 .header__link:hover {
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 .header__main-illustration {
@@ -87,6 +92,7 @@
 .content {
   margin: 0 auto;
   padding: 0;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
 .description {
@@ -115,6 +121,9 @@
 .two-columns__main-text {
   width: 80%;
   min-width: 784px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .two-columns__paragraph {
@@ -127,6 +136,8 @@
   line-height: 34px;
   font-size: 24px;
   font-style: 600;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .digits {
@@ -221,6 +232,11 @@ li {
   top: 50%;
 }
 
+.feynman__link:hover {
+  font-weight: bolder;
+}
+
+
 .kaufman {
   margin: 0 auto;
   background-color: #1f1f1f;
@@ -229,7 +245,7 @@ li {
   position: relative;
 }
 
-.section-title__theme-dark {
+.section-title__theme_dark {
   margin: 90px auto 0;
   width: 60%;
   text-align: center;
@@ -239,7 +255,7 @@ li {
   position: relative;
 }
 
-.section-subtitle__theme-dark {
+.section-subtitle__theme_dark {
   margin: 20px auto 0;
   width: 60%;
   line-height: 34px;
@@ -248,7 +264,7 @@ li {
   text-align: center;
 }
 
-.table__theme-dark {
+.table__theme_dark {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -256,19 +272,19 @@ li {
   width: 1050px;
 }
 
-.table__cell_theme-dark {
+.table__cell_theme_dark {
   width: 200px;
   margin-top: 80px;
   z-index: 2;
 }
 
-.table__heading_theme-dark {
+.table__heading_theme_dark {
   line-height: 1.15;
   font-size: 24px;
   font-style: 600;
 }
 
-.table__text_theme-dark {
+.table__text_theme_dark {
   padding-top: 20px;
   line-height: 1.2;
   font-size: 18px;
@@ -291,6 +307,7 @@ li {
   min-height: 360px;
   margin: 0 auto;
   padding: 0;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
 .footer__columns {
@@ -304,13 +321,13 @@ li {
   flex-basis: 711px;
 }
 
-.footer__column-content-copyringht {
+.footer__column_content_copyringht {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.logo__place-footer {
+.logo__place_footer {
   width: 228px;
   height: 32px;
   top: 0;
@@ -327,26 +344,26 @@ li {
   font-style: normal;
 }
 
-.footer__column-content-info {
+.footer__column_content_info {
   display: flex;
   flex-direction: column;
   top: 0;
 }
 
-.footer__column-heading {
+.footer__column_heading {
   line-height: 30px;
   font-size: 18px;
   font-style: 600;
   margin: 0;
 }
 
-.footer__column-content-social {
+.footer__column_content_social {
   display: flex;
   flex-direction: column;
   top: 0;
 }
 
-.footer__column-links {
+.footer__column_links {
   margin-top: 20px;
   margin-bottom: 16px;
 }
@@ -355,7 +372,7 @@ ul {
   padding-inline-start: 0;
 }
 
-.footer__column-link {
+.footer__column_link {
   line-height: 30px;
   font-size: 18px;
   font-style: normal;
@@ -365,11 +382,11 @@ ul {
   margin: 0;
 }
 
-.footer__column-link:hover {
-  font-weight: bold;
+.footer__column_link:hover {
+  font-weight: bolder;
 }
 
-.footer__social-icon {
+.footer__social_icon {
   height: 16px;
   width: 16px;
   padding-right: 10px;
