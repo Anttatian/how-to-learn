@@ -7,7 +7,7 @@
   min-width: 1100px;
   max-width: 1600px;
   margin: 0 auto;
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
   font-style: normal;
   color: #000;
 }
@@ -19,11 +19,11 @@
   background-color: #f2f2f2;
   position: relative;
   display: flex;
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
 .logo {
-  height:32px;
+  height: 32px;
   width: 228px;
   position: absolute;
 }
@@ -42,6 +42,7 @@
   font-size: 102px;
   font-style: 600;
   align-self: center;
+  position: absolute;
 }
 
 .header__subtitle {
@@ -77,7 +78,7 @@
   height: 568px;
   width: 568px;
   background-color: #2f80ed;
-  top:64px;
+  top: 64px;
   right: 0px;
   position: absolute;
 }
@@ -85,7 +86,7 @@
 .content {
   margin: 0 auto;
   padding: 0;
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
 .description {
@@ -223,12 +224,12 @@ li {
   right: 48px;
   position: absolute;
   top: 50%;
+  text-decoration: none;
 }
 
 .feynman__link:hover {
   font-weight: bolder;
 }
-
 
 .kaufman {
   margin: 0 auto;
@@ -298,28 +299,29 @@ li {
 
 .footer {
   background-color: #1f1f1f;
-  color: white;
-  min-height: 360px;
+  color: #f2f2f2;
+  min-height: 350px;
   margin: 0 auto;
   padding: 0;
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
 .footer__columns {
   width: 90%;
+  min-height: 250px;
   padding-top: 60px;
   padding-bottom: 40px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
   justify-content: space-between;
-  flex-basis: 711px;
 }
 
 .footer__column_content_copyringht {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  flex-basis: 711px;
 }
 
 .logo__place_footer {
@@ -330,10 +332,8 @@ li {
 }
 
 .footer__author {
-  bottom: 0;
-  margin-top: 18px;
-  margin-bottom: 18px;
-  left: 0;
+  padding-bottom: 18px;
+  padding-left: 0;
   line-height: 25px;
   font-size: 18px;
   font-style: normal;
