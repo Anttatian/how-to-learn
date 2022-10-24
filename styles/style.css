@@ -1,4 +1,4 @@
-* {
+html {
   margin: 0;
   padding: 0;
 }
@@ -27,7 +27,7 @@
   width: 228px;
 }
 
-.logo__place_header {
+.logo_place_header {
   position: absolute;
   top: 30px;
   margin-left: 64px;
@@ -39,7 +39,7 @@
   margin-left: 64px;
   line-height: 96px;
   font-size: 102px;
-  font-style: 600;
+  font-weight: 600;
   align-self: center;
   position: absolute;
 }
@@ -107,7 +107,7 @@
   width: 175px;
   font-size: 18px;
   line-height: 1.2;
-  font-style: normal;
+  font-weight: normal;
   text-decoration: none;
 }
 
@@ -128,7 +128,7 @@
 .two-columns__span-accent {
   line-height: 34px;
   font-size: 24px;
-  font-style: 600;
+  font-weight: 600;
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -257,7 +257,7 @@ li {
   text-align: center;
 }
 
-.table__theme_dark {
+.table_theme_dark {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -299,7 +299,7 @@ li {
 .footer {
   background-color: #1f1f1f;
   color: #f2f2f2;
-  min-height: 350px;
+  max-height: 350px;
   margin: 0 auto;
   padding: 0;
   font-family: "Helvetica Neue", Arial, sans-serif;
@@ -313,17 +313,16 @@ li {
   margin-left: auto;
   margin-right: auto;
   display: flex;
-  justify-content: space-between;
 }
 
-.footer__column_content_copyringht {
+.footer__column_content_copyright {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   flex-basis: 711px;
 }
 
-.logo__place_footer {
+.logo_place_footer {
   top: 0;
   left: 0;
 }
@@ -342,7 +341,7 @@ li {
   top: 0;
 }
 
-.footer__column_heading {
+.footer__column-heading {
   line-height: 30px;
   font-size: 18px;
   font-style: 600;
@@ -355,7 +354,7 @@ li {
   top: 0;
 }
 
-.footer__column_links {
+.footer__column-links {
   margin-top: 20px;
   margin-bottom: 16px;
 }
@@ -364,7 +363,7 @@ ul {
   padding-inline-start: 0;
 }
 
-.footer__column_link {
+.footer__column-link {
   line-height: 30px;
   font-size: 18px;
   font-style: normal;
@@ -374,11 +373,11 @@ ul {
   margin: 0;
 }
 
-.footer__column_link:hover {
+.footer__column-link:hover {
   font-weight: bolder;
 }
 
-.footer__social_icon {
+.footer__social-icon {
   height: 16px;
   width: 16px;
   padding-right: 10px;
